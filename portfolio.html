@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulshan's Portfolio</title>
+    <link rel="stylesheet"  href="style.css"> 
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #120627;
+            color: #ede7ff;
+        }
+        header {
+            background: #4b0082;
+            color: #f3e8ff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro,
+        .skills,
+        .projects,
+        .contact {
+            background: #1c0f32;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(99, 57, 255, 0.18);
+            padding: 28px;
+            margin-top: 24px;
+        }
+        .profile-row {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 6px 18px rgba(99, 57, 255, 0.2);
+            border: 2px solid rgba(124, 77, 255, 0.18);
+        }
+        .intro h2,
+        .skills h2,
+        .projects h2,
+        .contact h2 {
+            margin-top: 0;
+            color: #d1b3ff;
+            font-size: 1.4rem;
+        }
+        .intro p,
+        .contact p {
+            line-height: 1.7;
+            color: #dcd1ff;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 18px;
+        }
+        .skill-pill {
+            background: #7c4dff;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 999px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        .project-item {
+            background: #241548;
+            border-radius: 12px;
+            padding: 20px 22px;
+            margin-bottom: 16px;
+            border: 1px solid rgba(124, 77, 255, 0.18);
+        }
+        .project-item:last-child {
+            margin-bottom: 0;
+        }
+        .project-item h3 {
+            margin: 0 0 8px;
+            font-size: 1.1rem;
+            color: #f5eeff;
+        }
+        .project-item p {
+            margin: 0;
+            color: #caaeff;
+        }
+        .footer-text {
+            text-align: center;
+            padding: 20px;
+            color: #bdb1ff;
+            font-size: 14px;
+        }
+        a {
+            color: #d3b9ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gulshan's Portfolio</h1>
+            <p>Web developer and designer building clean, responsive websites.</p>
+        </div>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h2>About Me</h2>
+            <div class="profile-row">
+                <img class="profile-img" src="kush.jpeg" alt="Gulshan profile">
+                <p>Hello! I am a web developer passionate about creating responsive and user-friendly websites. I have experience working on various business and portfolio websites.</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">Bootstrap</span>
+                <span class="skill-pill">React</span>
+                <span class="skill-pill">Node.js</span>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>CalcuZone</h3>
+                <p>Multi-calculator website with modern UI and animations.</p>
+            </div>
+            <div class="project-item">
+                <h3>MultiShop</h3>
+                <p>E-commerce platform built using MERN Stack.</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to work together, feel free to reach out by email at <a href="mailto:gulshansharma222006@gmail.com">gulshansharma222005@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer class="footer-text">
+        <p>&copy; 2026 Gulshan. Built with HTML and CSS.</p>
+    </footer>
+</body>
+</html>
